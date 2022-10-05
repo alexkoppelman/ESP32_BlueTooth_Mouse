@@ -1,7 +1,14 @@
 # ESP32_BT_Mouse
 Have an esp32 emulate a Bluetooth mouse
 
-arduino code still WIP. need to:
+###This version has
+- A switch to enable/disable movement
+  Switch connected to pin 19 and ground
+- A led to indicae its on/off (could use onboard but want to integrate it into something)
+  led connected to pin 23 using a 200Ω resistor (called it onboard as using onboard pin (2?) was initial idea)
+
+
+##Arduino code still WIP. need to:
 - add bit more randomness
 - set timer differently?
 - 
